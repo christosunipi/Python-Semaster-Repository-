@@ -1,4 +1,4 @@
-f = open('tale.txt')
+f = open('txt.txt')
 text = str(f.read())
 text =''.join('{0:07b}'.format(ord(c), 'b') for c in text)
 max0,max1,temp0,temp1=-1,-1,0,0
